@@ -1,13 +1,15 @@
-# deploy-django-configuration-secure
+# deploy-django-configuration
 
-
-deploy-django-configuration
 Configuration du fichier stting avant deployement
 
-Check deploie
+# Check deploie
+```
 python manage.py check --deploy
+```
 
-Configure
+# Configure 
+
+```
 # path: projet/projet/settings.py
 ...
 DEBUG = False
@@ -27,3 +29,4 @@ SECURE_HSTS_PRELOAD = True
 SECURE_CONTENT_TYPE_NOSNIFF = True
 
 ...
+```
